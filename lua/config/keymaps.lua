@@ -19,3 +19,5 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map("i", "jk", "<Esc>", { desc = "Escape", remap = true })
+map("n", "U", "<C-r>")
+
